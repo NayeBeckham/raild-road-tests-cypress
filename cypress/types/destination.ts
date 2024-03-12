@@ -1,5 +1,5 @@
 export type Destination = {
-    id: string;
+    id?: string;
     city: string;
     priority: number;
 }
